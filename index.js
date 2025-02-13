@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 app.use('/api', userRoutes);
 // MongoDB connection
-mongoose.connect('mongodb+srv://Rahul:myuser@rahul.fack9.mongodb.net/LMESCRAP?authSource=admin&replicaSet=atlas-117kuv-shard-0&w=majority&readPreference=primary&retryWrites=true&ssl=true', {
+mongoose.connect('mongodb+srv://Rahul:myuser@rahul.fack9.mongodb.net/MarketHubApp?authSource=admin&replicaSet=atlas-117kuv-shard-0&w=majority&readPreference=primary&retryWrites=true&ssl=true', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
